@@ -1,0 +1,35 @@
+{
+  "eigenface_1_consistent": true,
+  "global_normalization_range": {
+    "vmin": -0.04359159618616104,
+    "vmax": 0.04359159618616104
+  },
+  "eigenface_1_stats": {
+    "original_min": 0.003066086210310459,
+    "original_max": 0.007515417877584696,
+    "normalized_min": 136,
+    "normalized_max": 149
+  },
+  "verification_tests": {
+    "individual_eigenface": {
+      "identical": true,
+      "max_difference": 0,
+      "status": "\u2705 ID\u00c9NTICA"
+    },
+    "grid_5_eigenfaces": {
+      "identical": true,
+      "max_difference": 0,
+      "status": "\u2705 ID\u00c9NTICA"
+    },
+    "grid_10_eigenfaces": {
+      "identical": true,
+      "max_difference": 0,
+      "status": "\u2705 ID\u00c9NTICA"
+    },
+    "titled_opencv_method": {
+      "identical": true,
+      "max_difference": 0,
+      "status": "\u2705 ID\u00c9NTICA"
+    }
+  }
+}

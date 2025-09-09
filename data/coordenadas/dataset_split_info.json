@@ -1,0 +1,48 @@
+{
+  "split_info": {
+    "random_state": 42,
+    "split_ratios": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "created_at": "2025-08-17T17:24:08.366977",
+    "original_file": "data/coordenadas/coordenadas_maestro.csv",
+    "total_samples": 957
+  },
+  "files": {
+    "train": {
+      "path": "data/coordenadas/coordenadas_train.csv",
+      "samples": 669,
+      "class_distribution": {
+        "Normal": 327,
+        "COVID": 214,
+        "Viral": 128
+      }
+    },
+    "validation": {
+      "path": "data/coordenadas/coordenadas_val.csv",
+      "samples": 144,
+      "class_distribution": {
+        "Normal": 70,
+        "COVID": 46,
+        "Viral": 28
+      }
+    },
+    "test": {
+      "path": "data/coordenadas/coordenadas_test.csv",
+      "samples": 144,
+      "class_distribution": {
+        "Normal": 71,
+        "COVID": 46,
+        "Viral": 27
+      }
+    }
+  },
+  "format": {
+    "columns": 32,
+    "structure": "index,x1,y1,...,x15,y15,filename",
+    "landmarks": 15,
+    "image_dimensions": "299x299"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "model_info": {
+    "n_components": 3344,
+    "image_dimensions": "200x159",
+    "n_pixels": 31800,
+    "n_training_images": 3345
+  },
+  "variance_analysis": {
+    "top_5_variance": [
+      0.4290548861026764,
+      0.08875053375959396,
+      0.08540797978639603,
+      0.06900041550397873,
+      0.05186963453888893
+    ],
+    "cumulative_top_5": [
+      0.4290548861026764,
+      0.5178053975105286,
+      0.603213369846344,
+      0.6722137928009033,
+      0.724083423614502
+    ],
+    "total_variance_explained": 0.9999999403953552,
+    "components_for_90_percent": 44,
+    "components_for_95_percent": 141
+  },
+  "dataset_info": {
+    "COVID": 1070,
+    "Normal": 1635,
+    "Viral Pneumonia": 640
+  }
+}

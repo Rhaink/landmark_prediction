@@ -1,0 +1,728 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-17T23:11:26.188368",
+    "source_file": "landmark_bounding_boxes_corrected.json",
+    "algorithm": "optimal_template_generator_corrected",
+    "search_method": "corrected_extensions",
+    "image_dimensions": "299x299",
+    "total_landmarks_processed": 15,
+    "algorithm_description": "Templates definidos como extensiones desde el punto de anclaje",
+    "processing_summary": {
+      "avg_template_area": 25392.2,
+      "max_template_area": 34903.0,
+      "min_template_area": 14774.0
+    }
+  },
+  "global_statistics": {
+    "template_areas": {
+      "min": 14774.0,
+      "max": 34903.0,
+      "mean": 25392.2,
+      "std": 5666.21087029654
+    },
+    "template_dimensions": {
+      "width": {
+        "min": 153.0,
+        "max": 209.0,
+        "mean": 181.33333333333334
+      },
+      "height": {
+        "min": 83.0,
+        "max": 167.0,
+        "mean": 140.0
+      }
+    }
+  },
+  "optimal_templates_corrected": {
+    "L1": {
+      "anchor_point": {
+        "x": 151,
+        "y": 70
+      },
+      "template_extensions": {
+        "left": 102,
+        "right": 97,
+        "up": 0,
+        "down": 158
+      },
+      "template_dimensions": {
+        "width": 200,
+        "height": 159,
+        "area": 31800
+      },
+      "metrics": {
+        "max_area_found": 31800,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 2.2411346435546875e-05,
+        "original_bbox": {
+          "x": 102.0,
+          "y": 0,
+          "width": 100.0,
+          "height": 141.0,
+          "center_x": 152.0,
+          "center_y": 70.5,
+          "area": 14100.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 102,
+        "right": 201,
+        "top": 0,
+        "bottom": 140,
+        "width": 100,
+        "height": 141
+      }
+    },
+    "L2": {
+      "anchor_point": {
+        "x": 153,
+        "y": 191
+      },
+      "template_extensions": {
+        "left": 97,
+        "right": 88,
+        "up": 88,
+        "down": 4
+      },
+      "template_dimensions": {
+        "width": 186,
+        "height": 93,
+        "area": 17298
+      },
+      "metrics": {
+        "max_area_found": 17298,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.7881393432617188e-05,
+        "original_bbox": {
+          "x": 97.0,
+          "y": 88.0,
+          "width": 114.0,
+          "height": 207.0,
+          "center_x": 154.0,
+          "center_y": 191.5,
+          "area": 23598.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 97,
+        "right": 210,
+        "top": 88,
+        "bottom": 294,
+        "width": 114,
+        "height": 207
+      }
+    },
+    "L3": {
+      "anchor_point": {
+        "x": 77,
+        "y": 90
+      },
+      "template_extensions": {
+        "left": 4,
+        "right": 148,
+        "up": 22,
+        "down": 139
+      },
+      "template_dimensions": {
+        "width": 153,
+        "height": 162,
+        "area": 24786
+      },
+      "metrics": {
+        "max_area_found": 24786,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.1682510375976562e-05,
+        "original_bbox": {
+          "x": 4.0,
+          "y": 22.0,
+          "width": 147.0,
+          "height": 138.0,
+          "center_x": 77.5,
+          "center_y": 91.0,
+          "area": 20286.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 4,
+        "right": 150,
+        "top": 22,
+        "bottom": 159,
+        "width": 147,
+        "height": 138
+      }
+    },
+    "L4": {
+      "anchor_point": {
+        "x": 224,
+        "y": 100
+      },
+      "template_extensions": {
+        "left": 163,
+        "right": 13,
+        "up": 32,
+        "down": 130
+      },
+      "template_dimensions": {
+        "width": 177,
+        "height": 163,
+        "area": 28851
+      },
+      "metrics": {
+        "max_area_found": 28851,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.33514404296875e-05,
+        "original_bbox": {
+          "x": 163.0,
+          "y": 32.0,
+          "width": 123.0,
+          "height": 137.0,
+          "center_x": 224.5,
+          "center_y": 100.5,
+          "area": 16851.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 163,
+        "right": 285,
+        "top": 32,
+        "bottom": 168,
+        "width": 123,
+        "height": 137
+      }
+    },
+    "L5": {
+      "anchor_point": {
+        "x": 67,
+        "y": 114
+      },
+      "template_extensions": {
+        "left": 0,
+        "right": 163,
+        "up": 41,
+        "down": 111
+      },
+      "template_dimensions": {
+        "width": 164,
+        "height": 153,
+        "area": 25092
+      },
+      "metrics": {
+        "max_area_found": 25092,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.239776611328125e-05,
+        "original_bbox": {
+          "x": 0,
+          "y": 41.0,
+          "width": 136.0,
+          "height": 147.0,
+          "center_x": 68.0,
+          "center_y": 114.5,
+          "area": 19992.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 0,
+        "right": 135,
+        "top": 41,
+        "bottom": 187,
+        "width": 136,
+        "height": 147
+      }
+    },
+    "L6": {
+      "anchor_point": {
+        "x": 235,
+        "y": 128
+      },
+      "template_extensions": {
+        "left": 177,
+        "right": 4,
+        "up": 60,
+        "down": 102
+      },
+      "template_dimensions": {
+        "width": 182,
+        "height": 163,
+        "area": 29666
+      },
+      "metrics": {
+        "max_area_found": 29666,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.0728836059570312e-05,
+        "original_bbox": {
+          "x": 177.0,
+          "y": 60.0,
+          "width": 118.0,
+          "height": 137.0,
+          "center_x": 236.0,
+          "center_y": 128.5,
+          "area": 16166.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 177,
+        "right": 294,
+        "top": 60,
+        "bottom": 196,
+        "width": 118,
+        "height": 137
+      }
+    },
+    "L7": {
+      "anchor_point": {
+        "x": 63,
+        "y": 149
+      },
+      "template_extensions": {
+        "left": 0,
+        "right": 172,
+        "up": 60,
+        "down": 60
+      },
+      "template_dimensions": {
+        "width": 173,
+        "height": 121,
+        "area": 20933
+      },
+      "metrics": {
+        "max_area_found": 20933,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.049041748046875e-05,
+        "original_bbox": {
+          "x": 0,
+          "y": 60.0,
+          "width": 127.0,
+          "height": 179.0,
+          "center_x": 63.5,
+          "center_y": 149.5,
+          "area": 22733.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 0,
+        "right": 126,
+        "top": 60,
+        "bottom": 238,
+        "width": 127,
+        "height": 179
+      }
+    },
+    "L8": {
+      "anchor_point": {
+        "x": 233,
+        "y": 163
+      },
+      "template_extensions": {
+        "left": 172,
+        "right": 4,
+        "up": 78,
+        "down": 50
+      },
+      "template_dimensions": {
+        "width": 177,
+        "height": 129,
+        "area": 22833
+      },
+      "metrics": {
+        "max_area_found": 22833,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.6450881958007812e-05,
+        "original_bbox": {
+          "x": 172.0,
+          "y": 78.0,
+          "width": 123.0,
+          "height": 171.0,
+          "center_x": 233.5,
+          "center_y": 163.5,
+          "area": 21033.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 172,
+        "right": 294,
+        "top": 78,
+        "bottom": 248,
+        "width": 123,
+        "height": 171
+      }
+    },
+    "L9": {
+      "anchor_point": {
+        "x": 151,
+        "y": 98
+      },
+      "template_extensions": {
+        "left": 106,
+        "right": 102,
+        "up": 32,
+        "down": 134
+      },
+      "template_dimensions": {
+        "width": 209,
+        "height": 167,
+        "area": 34903
+      },
+      "metrics": {
+        "max_area_found": 34903,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 6.4373016357421875e-06,
+        "original_bbox": {
+          "x": 106.0,
+          "y": 32.0,
+          "width": 91.0,
+          "height": 133.0,
+          "center_x": 151.5,
+          "center_y": 98.5,
+          "area": 12103.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 106,
+        "right": 196,
+        "top": 32,
+        "bottom": 164,
+        "width": 91,
+        "height": 133
+      }
+    },
+    "L10": {
+      "anchor_point": {
+        "x": 147,
+        "y": 121
+      },
+      "template_extensions": {
+        "left": 102,
+        "right": 106,
+        "up": 50,
+        "down": 106
+      },
+      "template_dimensions": {
+        "width": 209,
+        "height": 157,
+        "area": 32813
+      },
+      "metrics": {
+        "max_area_found": 32813,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.0013580322265625e-05,
+        "original_bbox": {
+          "x": 102.0,
+          "y": 50.0,
+          "width": 91.0,
+          "height": 143.0,
+          "center_x": 147.5,
+          "center_y": 121.5,
+          "area": 13013.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 102,
+        "right": 192,
+        "top": 50,
+        "bottom": 192,
+        "width": 91,
+        "height": 143
+      }
+    },
+    "L11": {
+      "anchor_point": {
+        "x": 151,
+        "y": 156
+      },
+      "template_extensions": {
+        "left": 102,
+        "right": 97,
+        "up": 69,
+        "down": 55
+      },
+      "template_dimensions": {
+        "width": 200,
+        "height": 125,
+        "area": 25000
+      },
+      "metrics": {
+        "max_area_found": 25000,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.049041748046875e-05,
+        "original_bbox": {
+          "x": 102.0,
+          "y": 69.0,
+          "width": 100.0,
+          "height": 175.0,
+          "center_x": 152.0,
+          "center_y": 156.5,
+          "area": 17500.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 102,
+        "right": 201,
+        "top": 69,
+        "bottom": 243,
+        "width": 100,
+        "height": 175
+      }
+    },
+    "L12": {
+      "anchor_point": {
+        "x": 100,
+        "y": 67
+      },
+      "template_extensions": {
+        "left": 32,
+        "right": 130,
+        "up": 0,
+        "down": 163
+      },
+      "template_dimensions": {
+        "width": 163,
+        "height": 164,
+        "area": 26732
+      },
+      "metrics": {
+        "max_area_found": 26732,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.7881393432617188e-05,
+        "original_bbox": {
+          "x": 32.0,
+          "y": 0,
+          "width": 137.0,
+          "height": 136.0,
+          "center_x": 100.5,
+          "center_y": 68.0,
+          "area": 18632.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 32,
+        "right": 168,
+        "top": 0,
+        "bottom": 135,
+        "width": 137,
+        "height": 136
+      }
+    },
+    "L13": {
+      "anchor_point": {
+        "x": 193,
+        "y": 70
+      },
+      "template_extensions": {
+        "left": 130,
+        "right": 41,
+        "up": 0,
+        "down": 158
+      },
+      "template_dimensions": {
+        "width": 172,
+        "height": 159,
+        "area": 27348
+      },
+      "metrics": {
+        "max_area_found": 27348,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.2874603271484375e-05,
+        "original_bbox": {
+          "x": 130.0,
+          "y": 0,
+          "width": 128.0,
+          "height": 141.0,
+          "center_x": 194.0,
+          "center_y": 70.5,
+          "area": 18048.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 130,
+        "right": 257,
+        "top": 0,
+        "bottom": 140,
+        "width": 128,
+        "height": 141
+      }
+    },
+    "L14": {
+      "anchor_point": {
+        "x": 60,
+        "y": 186
+      },
+      "template_extensions": {
+        "left": 0,
+        "right": 177,
+        "up": 78,
+        "down": 4
+      },
+      "template_dimensions": {
+        "width": 178,
+        "height": 83,
+        "area": 14774
+      },
+      "metrics": {
+        "max_area_found": 14774,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.2159347534179688e-05,
+        "original_bbox": {
+          "x": 0,
+          "y": 78.0,
+          "width": 122.0,
+          "height": 217.0,
+          "center_x": 61.0,
+          "center_y": 186.5,
+          "area": 26474.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 0,
+        "right": 121,
+        "top": 78,
+        "bottom": 294,
+        "width": 122,
+        "height": 217
+      }
+    },
+    "L15": {
+      "anchor_point": {
+        "x": 233,
+        "y": 195
+      },
+      "template_extensions": {
+        "left": 172,
+        "right": 4,
+        "up": 97,
+        "down": 4
+      },
+      "template_dimensions": {
+        "width": 177,
+        "height": 102,
+        "area": 18054
+      },
+      "metrics": {
+        "max_area_found": 18054,
+        "positions_evaluated": 1,
+        "bbox_coverage": {
+          "anchor_relative_x": 0.5,
+          "anchor_relative_y": 0.5
+        }
+      },
+      "processing": {
+        "method": "corrected_extensions",
+        "processing_time_seconds": 1.049041748046875e-05,
+        "original_bbox": {
+          "x": 172.0,
+          "y": 97.0,
+          "width": 123.0,
+          "height": 198.0,
+          "center_x": 233.5,
+          "center_y": 196.0,
+          "area": 24354.0
+        }
+      },
+      "bbox_analysis": {
+        "left": 172,
+        "right": 294,
+        "top": 97,
+        "bottom": 294,
+        "width": 123,
+        "height": 198
+      }
+    }
+  }
+}

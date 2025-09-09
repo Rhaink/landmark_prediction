@@ -1,0 +1,33 @@
+# Sistema de Predicción de Landmarks Médicos
+# Dependencias principales para procesamiento de imágenes médicas y análisis PCA
+
+# === PROCESAMIENTO DE DATOS ===
+pandas>=1.5.0                    # Manipulación de archivos CSV y datasets médicos
+numpy>=1.21.0                    # Operaciones arrays/matrices, álgebra lineal
+
+# === COMPUTER VISION Y IMÁGENES MÉDICAS ===
+opencv-python>=4.5.0             # Procesamiento imágenes, template matching, normalización CLAHE
+scikit-image>=0.19.0             # Transformaciones avanzadas de imágenes médicas
+Pillow>=8.0.0                    # Soporte adicional para formatos de imagen
+
+# === MACHINE LEARNING Y PCA ===
+scikit-learn>=1.0.0              # Análisis PCA científico, modelado estadístico
+scipy>=1.7.0                     # Optimización numérica, métricas de similitud
+
+# === VISUALIZACIÓN Y REPORTES ===
+matplotlib>=3.5.0                # Visualización eigenfaces, gráficos científicos
+seaborn>=0.11.0                  # Plots estadísticos avanzados, matrices de correlación
+
+# === UTILIDADES Y RENDIMIENTO ===
+tqdm>=4.64.0                     # Barras de progreso para procesamiento masivo
+pathlib2>=2.3.0                  # Manejo cross-platform de rutas de archivos
+
+# === OPCIONAL: OPTIMIZACIONES AVANZADAS ===
+# numba>=0.56.0                  # Aceleración JIT para template matching
+# joblib>=1.1.0                  # Paralelización avanzada de procesos
+# h5py>=3.6.0                    # Almacenamiento eficiente de modelos PCA grandes
+
+# === TESTING Y DESARROLLO ===
+# pytest>=7.0.0                  # Framework de testing
+# flake8>=4.0.0                  # Linting de código
+# black>=22.0.0                  # Formateo automático de código

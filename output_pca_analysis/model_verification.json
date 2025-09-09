@@ -1,0 +1,36 @@
+{
+  "test_passed": true,
+  "differences_found": [],
+  "test_details": {
+    "1_components": {
+      "identical": true,
+      "max_difference": 0,
+      "mean_difference": 0.0,
+      "total_pixels": 31800,
+      "different_pixels": 0
+    },
+    "5_components": {
+      "identical": true,
+      "max_difference": 0,
+      "mean_difference": 0.0,
+      "total_pixels": 31800,
+      "different_pixels": 0
+    },
+    "10_components": {
+      "identical": true,
+      "max_difference": 0,
+      "mean_difference": 0.0,
+      "total_pixels": 31800,
+      "different_pixels": 0
+    },
+    "40_components": {
+      "identical": true,
+      "max_difference": 0,
+      "mean_difference": 0.0,
+      "total_pixels": 31800,
+      "different_pixels": 0
+    }
+  },
+  "mean_image_identical": true,
+  "components_identical": true
+}

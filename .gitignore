@@ -1,0 +1,198 @@
+# =============================================================================
+# .gitignore - Sistema de Predicción de Landmarks Médicos
+# =============================================================================
+# Este archivo excluye outputs generados (~2GB) y mantiene código fuente esencial
+# Para reproducir outputs: ejecutar pipeline completo (6 fases) según README.md
+
+# =============================================================================
+# OUTPUTS GENERADOS (GRANDES) - Reproducibles ejecutando pipeline
+# =============================================================================
+
+# Fase 4: Recortes extraídos (14,985 archivos, ~500MB)
+output_landmarks/
+output_landmarks_complete/
+
+# Fase 5: Modelos PCA entrenados (15 modelos, ~600MB)
+output_pca_analysis_all_landmarks/
+output_pca_analysis/
+
+# Fase 1: Imágenes visualizadas (999 archivos, ~200MB)
+output_visualized/
+
+# Templates visualizados
+output_corrected_templates/
+output_templates/
+
+# Animaciones de validación (47MB)
+animations/
+animations_corrected/
+
+# Reportes de análisis masivo
+analysis_reports/
+pca_reports/
+
+# =============================================================================
+# ARCHIVOS TEMPORALES Y LOGS
+# =============================================================================
+
+# Logs del sistema
+*.log
+logs/
+debug_*.txt
+
+# Archivos temporales del sistema
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Archivos de respaldo automático
+*.bak
+*.backup
+*~
+
+# =============================================================================
+# ENTORNO DE DESARROLLO PYTHON
+# =============================================================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =============================================================================
+# ENTORNOS VIRTUALES
+# =============================================================================
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env
+
+# Conda
+.conda/
+conda-meta/
+
+# =============================================================================
+# HERRAMIENTAS DE DESARROLLO
+# =============================================================================
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =============================================================================
+# DATOS OPCIONALES (Comentar para incluir dataset)
+# =============================================================================
+
+# NOTA: El dataset médico (data/dataset/) es esencial para reproducibilidad
+# pero ocupa ~38MB. Descomentar la siguiente línea si el repositorio es muy grande:
+# data/dataset/
+
+# Outputs intermedios opcionales
+data/processed/
+data/temp/
+
+# =============================================================================
+# CONFIGURACIONES LOCALES
+# =============================================================================
+
+# Configuraciones específicas del usuario
+config/local.py
+config/user_settings.json
+.env.local
+
+# Configuraciones de sistema
+.python-version
+
+# =============================================================================
+# ARCHIVOS DEL SISTEMA
+# =============================================================================
+
+# macOS
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =============================================================================
+# ARCHIVOS ESENCIALES INCLUIDOS (NO IGNORAR)
+# =============================================================================
+# 
+# Los siguientes archivos SON INCLUIDOS en el repositorio:
+# 
+# CÓDIGO FUENTE (~50KB):
+# ├── *.py (scripts principales del pipeline)
+# ├── requirements.txt (dependencias)
+# └── *.md (documentación)
+# 
+# CONFIGURACIÓN CRÍTICA (~500KB):
+# ├── landmark_bounding_boxes_corrected.json
+# ├── optimal_templates_fixed.json  
+# └── data/coordenadas/*.csv
+#
+# DATASET MÉDICO (~38MB):
+# └── data/dataset/ (999 imágenes esenciales)
+#
+# DOCUMENTACIÓN (~2MB):
+# ├── docs/
+# ├── README.md, CLAUDE.md, proyecto_landmark.md
+# └── deprecated/ (referencia histórica)
+# 
+# TOTAL INCLUIDO: ~40-50MB (vs ~2GB excluidos)
+# =============================================================================
